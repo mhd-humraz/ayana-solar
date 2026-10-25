@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ayana Solar – Rooftop solar for Kerala homes</title>
+<meta name="description" content="Rooftop solar designed, installed and maintained by one local team. Get a free site survey.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a class="logo" href="#top"><svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><circle cx="13" cy="13" r="5.5" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M13 2v3M13 21v3M2 13h3M21 13h3M5.2 5.2l2 2M18.8 18.8l2 2M5.2 20.8l2-2M18.8 7.2l2-2"/></g></svg>Ayana Solar</a>
+  <nav aria-label="Main">
+    <a href="#process">How it works</a>
+    <a href="#calc">Savings</a>
+    <a href="#work">Our installs</a>
+    <a href="#faq">Questions</a>
+  </nav>
+  <a class="btn btn-sm" href="#contact">Book a survey</a>
+</header>
+
+<main id="top">
+<section class="hero">
+  <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=2000&q=80" alt="Rows of solar panels catching low sun" class="hero-img" fetchpriority="high">
+  <div class="hero-copy">
+    <h1>Your roof already gets the sun.<br>Let it pay the bill.</h1>
+    <p>We design, install and look after rooftop solar for homes and small businesses across Ernakulam and Kerala. One team from survey to switch-on, and we handle the KSEB and subsidy paperwork.</p>
+    <div class="hero-actions">
+      <a class="btn" href="#contact">Get a free site survey</a>
+      <a class="link" href="#calc">Estimate my savings</a>
+    </div>
+  </div>
+  <dl class="hero-facts">
+    <div><dt>Installed since 2014</dt><dd>1,850 roofs</dd></div>
+    <div><dt>Panel warranty</dt><dd>25 years</dd></div>
+    <div><dt>Survey to switch-on</dt><dd>about 3 weeks</dd></div>
+  </dl>
+</section>
+
+<section class="section" id="process">
+  <div class="wrap split">
+    <div>
+      <h2>From first visit to first unit exported</h2>
+      <p class="lead">No sales agent hands you over to a contractor. The engineer who surveys your roof is the one who signs off the design.</p>
+      <img class="rounded" src="https://images.unsplash.com/photo-1558449028-b53a39d100fc?auto=format&fit=crop&w=900&q=80" alt="Technician fixing a panel on a rooftop" loading="lazy">
+    </div>
+    <ol class="steps">
+      <li><h3>Roof survey</h3><p>We measure shade, roof strength and your meter load. Free, about 45 minutes, no obligation.</p></li>
+      <li><h3>Design and quote</h3><p>You get a fixed quote with panel layout, expected yearly output and the subsidy amount you qualify for.</p></li>
+      <li><h3>Paperwork</h3><p>We file the KSEB net-metering application and the national rooftop subsidy portal request for you.</p></li>
+      <li><h3>Installation</h3><p>Most homes take two days on site. Wiring is neat, labelled and tested before we leave.</p></li>
+      <li><h3>Switch-on and care</h3><p>After the KSEB meter change, you track output on your phone. We clean and inspect twice a year for the first five years.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="section tint" id="calc">
+  <div class="wrap">
+    <h2>What could solar save you?</h2>
+    <p class="lead">Drag to your average monthly electricity bill. This is a rough estimate. Your survey gives the real numbers.</p>
+    <div class="calc">
+      <div class="calc-in">
+        <label for="bill">Monthly bill</label>
+        <output id="billOut" for="bill">₹ 4,000</output>
+        <input type="range" id="bill" min="1000" max="20000" step="500" value="4000">
+        <div class="scale"><span>₹1,000</span><span>₹20,000</span></div>
+      </div>
+      <div class="calc-out" aria-live="polite">
+        <div><span>Suggested system</span><b id="rKw">–</b></div>
+        <div><span>Yearly saving</span><b id="rSave">–</b></div>
+        <div><span>Cost after subsidy</span><b id="rCost">–</b></div>
+        <div><span>Pays for itself in</span><b id="rPay">–</b></div>
+      </div>
+      <svg class="bars" id="bars" viewBox="0 0 600 120" role="img" aria-label="Cumulative cost with and without solar over 10 years"></svg>
+      <p class="note">Assumes about ₹7 per unit, 4.5 sun-hours a day, ₹55,000 per kW before subsidy and the PM Surya Ghar rates of ₹30,000 per kW for the first 2 kW and ₹18,000 for the third, capped at 3 kW. Check current rules and tariffs before deciding.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="work">
+  <div class="wrap">
+    <h2>Recent installs</h2>
+    <div class="gallery">
+      <figure class="g1"><img loading="lazy" src="https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&w=1200&q=80" alt="Home with solar panels on a tiled roof"><figcaption><b>Aluva, 4 kW</b> Family home, 15 panels. Bill dropped from ₹5,200 to about ₹600.</figcaption></figure>
+      <figure class="g2"><img loading="lazy" src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=900&q=80" alt="Large array of blue solar panels"><figcaption><b>Kalamassery, 30 kW</b> Small factory, runs daytime machines directly.</figcaption></figure>
+      <figure class="g3"><img loading="lazy" src="https://images.unsplash.com/photo-1497440001374-f26997328c1b?auto=format&fit=crop&w=900&q=80" alt="Close-up of solar cells"><figcaption><b>Edappally, 3 kW</b> Flat concrete roof with raised mounts.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="section tint" id="faq">
+  <div class="wrap narrow">
+    <h2>Questions we hear most</h2>
+    <details><summary>Does it work in the monsoon?</summary><p>Yes, at lower output. Panels still generate on cloudy days. Over a full year, the dry months make up for it, and net metering banks the surplus with KSEB.</p></details>
+    <details><summary>What happens during a power cut?</summary><p>A standard grid-tied system switches off for safety. If you need power during outages, ask us about a battery backup design.</p></details>
+    <details><summary>Will it damage my roof?</summary><p>No. We use anchored or ballasted mounts depending on the roof, and seal every penetration. Workmanship is covered for 5 years.</p></details>
+    <details><summary>How long does subsidy take?</summary><p>It depends on the portal and your DISCOM, but is usually paid into your account some weeks after commissioning. We track it with you.</p></details>
+  </div>
+</section>
+
+<section class="section contact" id="contact">
+  <div class="wrap split">
+    <div>
+      <h2>Book your free site survey</h2>
+      <p class="lead">Tell us where you are. An engineer will call within one working day to fix a time.</p>
+      <p class="small">Office: Aluva, Ernakulam<br>Mon–Sat, 9:00 to 18:00<br>hello@ayanasolar.example</p>
+    </div>
+    <form id="form" novalidate>
+      <label>Name<input name="name" required autocomplete="name"></label>
+      <label>Phone<input name="phone" type="tel" required inputmode="tel" autocomplete="tel" placeholder="10-digit mobile number"></label>
+      <label>Property<select name="type"><option>Home</option><option>Shop or office</option><option>Factory or institution</option></select></label>
+      <button class="btn" type="submit">Request a survey</button>
+      <p class="msg" id="msg" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="foot"><div class="wrap"><span>© 2026 Ayana Solar</span><span>Replace demo name, phone and email before launch.</span></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
